@@ -1,0 +1,9 @@
+<script>
+    let arr=["Achu","Varshaa","Ragunathan","Aarthi"];
+    function longestString() {
+    return arr.sort(function (a, b) {
+        return b.length - a.length;
+    })[0];
+}
+console.log(longestString());
+</script>
